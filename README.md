@@ -5,6 +5,12 @@ was recently fully disclosed on. The tool will check if your node accepted an
 invalid channel, as well as attempt to quantify the total amount of lost coins,
 if any.
 
+Note that this tool is only for `lnd`, however both `eclair` and `c-lightning`
+also have tools for detection as well:
+
+  * [eclair's tool](https://github.com/ACINQ/detection-tool-cve-2019-13000)
+  * [c-lightning's tool](https://ozlabs.org/~rusty/clightning-checkchannels)
+
 ## Installation 
 
 You can build the tool with
